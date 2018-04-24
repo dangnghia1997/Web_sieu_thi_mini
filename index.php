@@ -1,12 +1,6 @@
-<?php 
-// include("./smarty/libs/Smarty.class.php");
-// $smarty = new Smarty();
-// $smarty->setTemplateDir("smarty/templates/trangchu");
-// $smarty->setCompileDir("smarty/templates_c");
+<?php
 
-
-include("controllers/c_trang_chu.php");
-$c_trang_chu = new C_trang_chu();
-$c_trang_chu->Hien_thi_trang_chu();
-
- ?>
+include("controller/c_homepage.php");
+$c_hompage=new C_homepage();
+$c_hompage->Hien_thi_trang_chu();
+?>
